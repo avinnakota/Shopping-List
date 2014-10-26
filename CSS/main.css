@@ -1,0 +1,51 @@
+#note
+{
+	background-image: url("../Images/notepad.jpg");
+	height: 695px;
+	width: 750px;
+	position: relative;
+	margin: auto;
+	border-radius: 24%;
+}
+h1
+{
+	color: #6633FF;
+	text-align: center;
+	font-family: fantasy;
+}
+body 
+{
+	background-color: #B8B8B8;
+}
+#item 
+{
+	position:relative; 
+	left: 300px;
+	margin: 15px;
+	padding: 5px;
+	border: #CC6699 2px;
+	bottom: 20px;
+}
+#add 
+{
+	display: block;
+	position: relative;
+	left: 322px;
+	background-color: #CC6699;
+	border: #CC66CC 3px;
+	padding: 10px;
+	bottom: 20px;
+	font-family: cursive;
+	font-size: 20px;
+}
+ul 
+{
+	list-style-type: none;
+}
+li 
+{
+	text-align: center;
+	font-size: 25px;
+	font-family:fantasy;
+	font-weight: bold;
+}
