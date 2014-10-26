@@ -1,17 +1,18 @@
 #note
 {
 	background-image: url("../Images/notepad.jpg");
-	height: 695px;
-	width: 750px;
+	height: 500px;
+	width: 500px;
 	position: relative;
 	margin: auto;
-	border-radius: 24%;
+	border-radius: 10%;
 }
 h1
 {
-	color: #6633FF;
+	color: black;
 	text-align: center;
 	font-family: fantasy;
+	font-weight: bold;
 }
 body 
 {
@@ -20,19 +21,20 @@ body
 #item 
 {
 	position:relative; 
-	left: 300px;
+	left: 155px;
 	margin: 15px;
 	padding: 5px;
 	border: #CC6699 2px;
 	bottom: 20px;
+	width: 150px;
 }
 #add 
 {
 	display: block;
 	position: relative;
-	left: 322px;
+	margin: auto;
 	background-color: #CC6699;
-	border: #CC66CC 3px;
+	border: #B8B8B8 solid 3px;
 	padding: 10px;
 	bottom: 20px;
 	font-family: cursive;
@@ -44,8 +46,21 @@ ul
 }
 li 
 {
-	text-align: center;
 	font-size: 25px;
 	font-family:fantasy;
 	font-weight: bold;
+	text-align: center;
+}
+#firstItem
+{
+	display: block;
+}
+.checkmark
+{
+	float left;
+	height: 25px;
+	width: 25px;
+}
+* {
+  outline: red 1px solid;
 }
