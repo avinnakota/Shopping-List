@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$("#add").on("click", function(){
-		("ul").append("<li>" + "$(#item).val()" + "</li>");
+		var listItem = $("#item").val();
+		$(this).closest("#note").find("ul").append("<li>" + listItem + "</li>");
 	});
 });
