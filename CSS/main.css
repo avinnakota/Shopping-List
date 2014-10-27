@@ -63,16 +63,12 @@ li
 	height: 25px;
 	width: 25px;
 }
-.itembar
-{
-	width: 50%;
-	height: 20%;
-	background-color: 
-}
+
 .rid
 {
 	background-image: url("../Images/rid.jpg");
 	height: 20px;
 	width: 20px;
 	display: inline;
+	float left;
 }

@@ -3,8 +3,8 @@ $(document).ready(function() {
 	$("#add").on("click", function(){
 		var listItem = $("#item").val();
 		$(this).closest("#note").find("ul").append
-		("<li><button class = "rid">-</button><p class = "itembar">"	
-		+ listItem  + "</p></li>");
+		("<li><button class = 'rid'></button>"	
+		+ listItem  + "</li>");
 	});
 	//This code deletes 
 	$("ul").on("click", "li", function(){
