@@ -3,13 +3,13 @@ $(document).ready(function() {
 	$("#add").on("click", function(){
 		var listItem = $("#item").val();
 		$(this).closest("#note").find("ul").append
-		("<li><button class = 'rid'></button>"	
-		+ listItem  + "</li>");
+		("<li><button class = 'rid'></button><button class = 'checkmark'></button>"	+ listItem  + "</li>");
 	});
 	//This code deletes 
-	$("ul").on("click", "li", function(){
-		(this).remove();
+	$(".rid").on("click", "li", function(){
+		this.remove();
 	});
-	//This code makes the list items sortable
-	$("ul").sortable({ axis: "y" });
+	$(".checkmark").on("click", "li", function() {
+		this.css({"text-decoration": "line-through"});
+	});
 });
